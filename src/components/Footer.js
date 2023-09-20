@@ -19,7 +19,7 @@ const Footer = () => {
       </ul>
       <ul className="footer-icons">
         {socialLinks.map((link) => {
-          const { id, href, text } = link;
+          const { id } = link;
           return (
             <li key={id}>
               <SocialLink link={link} />
