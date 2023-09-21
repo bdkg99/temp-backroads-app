@@ -1,8 +1,8 @@
+import React from "react";
 import aboutImg from "../images/about.jpeg";
 import Title from "./Title";
 
-
-const  About = () => {
+const About = () => {
   return (
     <section className="section" id="about">
       <Title title="about" subTitle="us" />
@@ -16,7 +16,7 @@ const  About = () => {
           />
         </div>
         <article className="about-info">
-          <h3>explore the difference</h3>
+          <h3>Explore the Difference</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
@@ -28,11 +28,12 @@ const  About = () => {
             unde dolor?
           </p>
           <a href="#about" className="btn">
-            read more
+            Read More
           </a>
         </article>
       </div>
     </section> // <!-- end of about section -->
   );
-}
-export default About
+};
+
+export default About;
